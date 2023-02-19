@@ -1,9 +1,8 @@
 .showing-text {
-    position: absolute;
-    margin-top: 8rem;
-    margin-left: 5rem;
-    max-width: 50%;
-    animation: 2s opanimation;
+    position: relative;
+    margin-left: 7rem;
+    max-width: 40%;
+    animation: 3s opanimation;
 }
 
 .showing-text p {
@@ -13,16 +12,25 @@
 }
 
 .show {
+    content: '';
+    margin-top: 20rem;
     color: #d0d0d0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 @keyframes opanimation {
     from {
-        position: 0 0;
+        width: 0;
+        opacity: 0;
+    }
+    30% {
+        width: 20%;
         opacity: 0;
     }
     to {
-        position: 100% 0;
+        width: 100%;
         opacity: 1;
     }
 }
