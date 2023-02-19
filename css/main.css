@@ -2,7 +2,7 @@
     position: relative;
     margin-left: 7rem;
     max-width: 40%;
-    animation: 3s opanimation;
+    animation: opanimation 3s ease-in-out forwards;
 }
 
 .showing-text p {
@@ -33,4 +33,8 @@
         width: 100%;
         opacity: 1;
     }
+}
+
+main {
+    height: 2000px;
 }
