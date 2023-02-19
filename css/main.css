@@ -1,11 +1,9 @@
 .showing-text {
+    position: absolute;
     margin-top: 8rem;
     margin-left: 5rem;
     max-width: 50%;
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
+    animation: 2s opanimation;
 }
 
 .showing-text p {
@@ -16,7 +14,15 @@
 
 .show {
     color: #d0d0d0;
-    filter: blur(0);
-    transform: translateX(0);
-    opacity: 1;
+}
+
+@keyframes opanimation {
+    from {
+        position: 0 0;
+        opacity: 0;
+    }
+    to {
+        position: 100% 0;
+        opacity: 1;
+    }
 }
