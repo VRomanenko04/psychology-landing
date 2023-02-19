@@ -1,0 +1,16 @@
+.showing-text {
+    margin-top: 30svh;
+    max-width: 800px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    /* opacity: 0; */
+    /* transform: translateX(-50px); */
+    transition: opacity 500ms transform 500ms;
+}
+
+.showing-text.active {
+    opacity: 1;
+    transform: translateX(0);
+}
