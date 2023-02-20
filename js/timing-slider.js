@@ -3,6 +3,7 @@ const activeSlide = document.querySelector('.slider-img.active');
 
 
 function changeSlide() {
+    const activeSlide = document.querySelector('.slider-img.active');
     let nextSlide = activeSlide.nextElementSibling;
     
     if (!nextSlide) {
