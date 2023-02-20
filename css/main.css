@@ -42,3 +42,48 @@
 .slider img.active {
     display: block;
 }
+
+.second-view {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-view h6 {
+    color: #d0d0d0;
+    font-size: 2rem;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.about-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.side-border {
+    border-right: #d0d0d0 3px solid;
+    height: 25em;
+    margin-left: 8rem;
+    width: 2em;
+    opacity: 0.5;
+}
+
+.about-item {
+    margin-top: 3rem;
+    margin-left: 7rem;
+    max-width: 70%;
+    color: #d0d0d0;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+    font-size: 1.2rem;
+}
+
+.show-text {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+}
