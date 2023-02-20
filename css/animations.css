@@ -1,0 +1,14 @@
+@keyframes opanimation {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    30% {
+        width: 20%;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
