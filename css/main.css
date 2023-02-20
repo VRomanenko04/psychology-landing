@@ -1,7 +1,7 @@
 @import url(animations.css);
 
 .showing-text {
-    position: relative;
+    position: absolute;
     margin-left: 7rem;
     max-width: 40%;
     animation: opanimation 3s ease-in-out forwards;
@@ -9,15 +9,31 @@
 
 .showing-text p {
     color: #d0d0d0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
 .show {
     content: '';
-    margin-top: 20rem;
+    margin-top: 5rem;
     color: #d0d0d0;
     position: absolute;
-    top: 0;
-    left: 0;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    margin-left: 50rem
+}
+
+.slider img {
+    display: none;
+    object-fit: cover;
+    height: 20rem;
+    border-radius: 20%;
+}
+
+.slider img.active {
+    display: block;
 }
