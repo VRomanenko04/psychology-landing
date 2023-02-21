@@ -66,8 +66,13 @@
     border-right: #d0d0d0 3px solid;
     height: 25em;
     margin-left: 8rem;
+    margin-top: 2rem;
     width: 2em;
     opacity: 0.5;
+}
+
+.about-me {
+    margin-top: 2rem;
 }
 
 .about-item {
