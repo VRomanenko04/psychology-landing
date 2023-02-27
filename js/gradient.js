@@ -1,3 +1,4 @@
+// Взято с https://codepen.io/cathbailh/pen/EgPGBb
 const c = document.getElementById('canv');
 let $ = c.getContext('2d');
 
