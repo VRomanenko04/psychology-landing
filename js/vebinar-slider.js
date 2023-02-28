@@ -5,6 +5,7 @@ const vebinarSlides = slider.querySelectorAll('.slide');
 let slidePosition = 0;
 const totalSlides = vebinarSlides.length;
 
+// Ивент на клик кнопки "назад"
 prevBtn.addEventListener('click', () => {
     slidePosition--;
     if (slidePosition < 0) {
@@ -13,6 +14,7 @@ prevBtn.addEventListener('click', () => {
     updateSliderPosition();
     });
 
+// Ивент на клик кнопки "вперёд"
 nextBtn.addEventListener('click', () => {
     slidePosition++;
     if (slidePosition > totalSlides - 1) {
@@ -21,7 +23,7 @@ nextBtn.addEventListener('click', () => {
     updateSliderPosition();
 });
 
-//Задаём слайдам стиль transform в зависимости от размера экрана устройства
+//Задаём слайдам анимацию transform в зависимости от размера экрана устройства
 function updateSliderPosition() {
     slider.style.transform = `translateX(-${slidePosition * vebinarSlides[0].clientWidth}px)`;
 }
