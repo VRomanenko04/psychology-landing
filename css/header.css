@@ -113,6 +113,6 @@ canvas {
     border-radius: 20%;
 }
 
-.slider img.active {
+.slider img.current {
     display: block;
 }
