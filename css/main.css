@@ -49,6 +49,50 @@
     opacity: 1;
 }
 
+.loop-position {
+    position: relative;
+    margin-right: 23rem;
+    margin-top: 4rem;
+}
+
+.loop-position.act {
+    display: none;
+}
+
+.loop-position img {
+    position: absolute;
+    width: 15em;
+    height: 20em;
+    border-radius: 7%;
+}
+
+.loop-position :nth-child(1) {
+    transform: rotate(10deg);
+    z-index: 4;
+}
+
+.loop-position :nth-child(2) {
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+
+.loop-position :nth-child(3) {
+    z-index: 3;
+    transform: translateY(5px);
+}
+
+.first-certificate.act {
+    z-index: 5 !important;
+}
+
+.second-certificate.act {
+    z-index: 5 !important;
+}
+
+.third-certificate.act {
+    z-index: 5 !important;
+}
+
 .slider-container {
     display: flex;
     align-items: center;
