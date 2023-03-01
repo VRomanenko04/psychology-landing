@@ -11,6 +11,7 @@
     text-transform: uppercase;
 }
 
+/* Блок about, текст в нём, анимация, бордер */
 .about-position {
     display: flex;
     flex-direction: row;
@@ -49,6 +50,7 @@
     opacity: 1;
 }
 
+/* Цикл с сертификатами */
 .loop-position {
     position: relative;
     margin-right: 23rem;
@@ -93,6 +95,7 @@
     z-index: 5 !important;
 }
 
+/* Блок слайдера сертификатов */
 .slider-container {
     display: flex;
     align-items: center;
