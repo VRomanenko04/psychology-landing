@@ -95,12 +95,12 @@
     z-index: 5 !important;
 }
 
-/* Блок слайдера сертификатов */
+/* Блок слайдера вебинаров */
 .slider-container {
     display: flex;
     align-items: center;
     position: relative;
-    height: 90svh;
+    height: 95svh;
     width: 100%;
     overflow: hidden;
 }
@@ -138,10 +138,13 @@
     position: absolute;
     background-color: #6769f4ad;
     height: 30rem;
-    width: 20rem;
-    border-radius: 10%;
+    width: 40rem;
+    border-radius: 5%;
     margin-left: 22rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
+    -webkit-box-shadow: 0px 0px 30px -5px rgba(237,237,237,0.3);
+    -moz-box-shadow: 0px 0px 30px -5px rgba(237,237,237,0.3);
+    box-shadow: 0px 0px 30px -5px rgba(237,237,237,0.3);
 }
 
 .backblock > p {
@@ -156,13 +159,13 @@
 }
 
 .mainblock {
-    background-color: #626262;  
+    background-color: rgba(238, 238, 238, 0.8);  
     opacity: 0.95;
     height: 23rem;
     width: 40rem;
     margin-top: 11rem;
     margin-left: 30rem;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .mainblock > ul {
@@ -171,7 +174,7 @@
 }
 
 .mainblock > ul > li {
-    color: #ffffff;
+    color: #111111;
     font-family: Arial, Helvetica, sans-serif;
     margin: 2rem;
     line-height: 30px;
