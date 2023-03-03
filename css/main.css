@@ -1,5 +1,4 @@
 .second-view {
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -7,7 +6,7 @@
 .second-view h6 {
     color: #d0d0d0;
     font-size: 2rem;
-    align-self: center;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -100,7 +99,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    height: 95svh;
+    height: 100svh;
     width: 100%;
     overflow: hidden;
 }
