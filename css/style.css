@@ -4,3 +4,7 @@ body {
     background-color: #151515;
     font-family: 'Quicksand', sans-serif;
 }
+
+body.lock {
+    overflow: hidden;
+}

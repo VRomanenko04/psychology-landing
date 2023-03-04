@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
-    <script defer="defer" src="js/text-animation.js"></script>
-    <script defer="defer" src="js/timing-slider.js"></script>
-    <script defer="defer" src="js/page-transition.js"></script>
-    <script defer="defer" src="js/gradient.js"></script>
-    <script defer="defer" src="js/vebinar-slider.js"></script>
-    <script defer="defer" src="js/photoloop.js"></script>
+    <script src="js/text-animation.js" defer></script>
+    <script src="js/timing-slider.js" defer></script>
+    <script src="js/page-transition.js" defer></script>
+    <script src="js/gradient.js" defer></script>
+    <script src="js/vebinar-slider.js" defer></script>
+    <script src="js/photoloop.js" defer></script>
+    <script src="js/popup.js" defer></script>
     <title>Навчання психосоматиці</title>
 </head>
 <body>
@@ -117,7 +118,7 @@
                                 <li>Lorem ipsum dolor sit amet consectetur.</li>
                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, obcaecati?</li>
                             </ul>
-                            <button>Як записатись</button>
+                            <button href="#popup" class="popup__link">Як записатись</button>
                         </div>
                     </div>
                     <div class="sec-vebinar slide">
@@ -131,7 +132,7 @@
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, deleniti.</li>
                                 <li>Lorem ipsum dolor sit amet.</li>
                             </ul>
-                            <button>Як записатись</button>
+                            <button href="#popup" class="popup__link">Як записатись</button>
                         </div>
                     </div>
                     <div class="third-vebinar slide">
@@ -145,7 +146,7 @@
                                 <li>Lorem, ipsum dolor.</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                             </ul>
-                            <button>Як записатись</button>
+                            <button href="#popup" class="popup__link">Як записатись</button>
                         </div>
                     </div>
                 </section>
@@ -165,5 +166,13 @@
         </div>
     </main>
     <footer></footer>
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#vebinars" class="popup__close close-popup">X</a>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur mollitia ullam labore saepe, corrupti similique reprehenderit amet asperiores cumque quibusdam numquam molestiae repudiandae sapiente vitae expedita tempora optio animi.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
