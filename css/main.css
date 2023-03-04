@@ -135,7 +135,7 @@
 
 .backblock {
     position: absolute;
-    background-color: #6769f4ad;
+    background-color: rgba(103, 105, 244, 0.7);
     height: 30rem;
     width: 40rem;
     border-radius: 5%;
@@ -184,5 +184,31 @@
 }
 
 .third {
+    background-color: #f7e32bcf;
+}
+
+.mainblock > button {
+    margin-left: 4rem;
+    padding: 10px;
+    cursor: pointer;
+    color: #111111;
+    border-radius: 5%;
+    border: none;
+}
+
+.mainblock > button:hover {
+    border: 1px solid #111111;
+    transform: scale(1.1);
+}
+
+.first-vebinar  button {
+    background-color: rgba(103, 105, 244, 0.7);
+}
+
+.sec-vebinar  button {
+    background-color: #fe0000b5;
+}
+
+.third-vebinar  button {
     background-color: #f7e32bcf;
 }
