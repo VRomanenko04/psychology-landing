@@ -6,7 +6,7 @@ const lockPadding = document.querySelectorAll('.lock-padding');
 let unlock = true;
 
 //Время связанное с длинной анимации в css
-const timeout = 800;
+const timeout = 600;
 
 // Если массив popupLinks не пустой, то выполняем переборку 
 if (popupLinks.length > 0) {
