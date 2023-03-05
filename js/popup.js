@@ -52,6 +52,7 @@ function popupOpen(currentPopup) {
         });
     }
 }
+// Функция закрывает popup и разблокирет body если оно заблокировано
 function popupClose(popupActive, doUnlock = true) {
     if(unlock) {
         popupActive.classList.remove('open');
