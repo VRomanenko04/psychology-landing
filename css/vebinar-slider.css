@@ -1,0 +1,117 @@
+/* Блок слайдера вебинаров */
+.slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100svh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.prev-slide {
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}
+
+.next-slide {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+.prev-slide:hover,
+.next-slide:hover {
+    transform: scale(1.1);
+}
+
+.vebinar-slider {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: transform 500ms ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    height: 100svh;
+}
+
+.backblock {
+    position: absolute;
+    background-color: rgba(103, 105, 244, 0.7);
+    height: 30rem;
+    width: 40rem;
+    border-radius: 2rem;
+    margin-left: 20rem;
+    margin-top: 8rem;
+    -webkit-box-shadow: 0px 0px 30px -5px rgba(237,237,237,0.3);
+    -moz-box-shadow: 0px 0px 30px -5px rgba(237,237,237,0.3);
+    box-shadow: 0px 0px 30px -5px rgba(237,237,237,0.3);
+}
+
+.backblock > p {
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+    margin: 2rem;
+    opacity: 0.6;
+}
+
+.mainblock {
+    background-color: rgba(238, 238, 238, 0.8);  
+    opacity: 0.95;
+    height: 23rem;
+    width: 40rem;
+    margin-top: 11rem;
+    margin-left: 30rem;
+    border-radius: 2rem;
+}
+
+.mainblock > ul {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.mainblock > ul > li {
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem;
+    line-height: 30px;
+}
+
+.second {
+    background-color: #fe0000b5;
+}
+
+.third {
+    background-color: #f7e32bcf;
+}
+
+.mainblock > button {
+    margin-left: 4rem;
+    padding: 10px;
+    cursor: pointer;
+    color: #111111;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.mainblock > button:hover {
+    border: 1px solid #111111;
+    transform: scale(1.1);
+}
+
+.first-vebinar  button {
+    background-color: rgba(103, 105, 244, 0.7);
+}
+
+.sec-vebinar  button {
+    background-color: #fe0000b5;
+}
+
+.third-vebinar  button {
+    background-color: #f7e32bcf;
+}

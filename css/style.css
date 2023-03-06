@@ -8,3 +8,9 @@ body {
 body.lock {
     overflow: hidden;
 }
+
+header {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+}

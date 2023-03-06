@@ -1,9 +1,3 @@
-header {
-    height: 100svh;
-    display: flex;
-    flex-direction: column;
-}
-
 /* Верхний header */
 .first-header {
     display: flex;
@@ -118,7 +112,7 @@ canvas {
     object-fit: cover;
     width: 30rem;
     height: 20rem;
-    border-radius: 20%;
+    border-radius: 4rem;
 }
 
 .slider img.current {
