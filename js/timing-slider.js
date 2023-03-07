@@ -16,4 +16,4 @@ function changeSlide() {
 }
 
 // Зацикливаем функцию с интервалом в 3 сек
-setInterval(changeSlide, 3000);
+setInterval(changeSlide, 4000);
