@@ -97,7 +97,7 @@
 /* Расположение и блок карусели */
 
 .review-carrousel {
-    height: 100svh;
+    height: 110svh;
     display: flex;
     flex-direction: column;
     justify-content: center;

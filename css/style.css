@@ -14,3 +14,9 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
